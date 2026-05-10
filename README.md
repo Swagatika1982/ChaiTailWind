@@ -152,7 +152,7 @@ Theme support
 Dynamic stylesheet generation
 Live Demo
 
-chai-tailwind-ss.netlify.app
+https://chai-tailwind-ss.netlify.app/
 
 GitHub Repository
 
