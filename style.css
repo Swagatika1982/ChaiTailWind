@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 30px;
+
+  background-image: url("./chaiTailwindBG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#demoBox {
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+.mini-box {
+  background-color: rgb(226, 209, 209);
+  color: black;
+  padding: 12px;
+  border-radius: 8px;
+}

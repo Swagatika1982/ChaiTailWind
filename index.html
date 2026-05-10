@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChaiTailwind CSS Engine</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body >
+
+    <h1>ChaiTailwind Runtime Demo
+        <hr>
+    </h1>
+
+    <div class="controls">
+        <select id="background">
+            <option value="">Background</option>
+            <option value="chai-bg-red">Red</option>
+            <option value="chai-bg-blue">Blue</option>
+            <option value="chai-bg-green">Green</option>
+            <option value="chai-bg-purple">Purple</option>
+            <option value="chai-bg-orange">Orange</option>
+
+            <option value="chai-bg-CadetBlue">CadetBlue</option>
+            <option value="chai-bg-Crimson">Crimson</option>
+            <option value="chai-bg-DarkCyan">DarkCyan</option>
+            <option value="chai-bg-ForestGreen">ForestGreen</option>
+            <option value="chai-bg-DimGray">DimGray</option>
+            <option value="chai-bg-LawnGreen">LawnGreen</option>
+            <option value="chai-bg-Maroon">Maroon</option>
+            <option value="chai-bg-MidnightBlue">MidnightBlue</option>
+            <option value="chai-bg-OliveDrab">OliveDrab</option>
+            <option value="chai-bg-Turquoise">Turquoise</option>
+            <option value="chai-bg-Thistle">Thistle</option>
+            <option value="chai-bg-Sienna">>Sienna</option>
+        </select>
+
+        <select id="padding">
+            <option value="">Padding</option>
+            <option value="chai-p-10">10px</option>
+            <option value="chai-p-20">20px</option>
+            <option value="chai-p-40">40px</option>
+        </select>
+
+        <select id="textColor">
+            <option value="">Text Color</option>
+            <option value="chai-text-white">White</option>
+            <option value="chai-text-black">Black</option>
+            <option value="chai-text-red">Red</option>
+            <option value="chai-text-blue">Blue</option>
+        </select>
+
+        <select id="textAlign">
+            <option value="">Text Align</option>
+            <option value="chai-text-left">Left</option>
+            <option value="chai-text-center">Center</option>
+            <option value="chai-text-right">Right</option>
+        </select>
+
+        <select id="fontSize">
+            <option value="">Font Size</option>
+            <option value="chai-font-16">16px</option>
+            <option value="chai-font-24">24px</option>
+            <option value="chai-font-32">32px</option>
+        </select>
+
+        <select id="radius">
+            <option value="">Radius</option>
+            <option value="chai-rounded">Default</option>
+            <option value="chai-rounded-10">10px</option>
+            <option value="chai-rounded-20">20px</option>
+        </select>
+
+        <select id="width">
+            <option value="">Width</option>
+            <option value="chai-w-250">250px</option>
+            <option value="chai-w-350">350px</option>
+            <option value="chai-w-450">450px</option>
+        </select>
+
+        <select id="height">
+            <option value="">Height</option>
+            <option value="chai-h-150">150px</option>
+            <option value="chai-h-200">200px</option>
+            <option value="chai-h-250">250px</option>
+        </select>
+
+        <select id="margin">
+            <option value="">Margin</option>
+            <option value="chai-m-10">10px</option>
+            <option value="chai-m-20">20px</option>
+            <option value="chai-m-40">40px</option>
+        </select>
+
+        <select id="border">
+            <option value="">Border</option>
+            <option value="chai-border-1">1px</option>
+            <option value="chai-border-2">2px</option>
+            <option value="chai-border-5">5px</option>
+        </select>
+
+        <select id="flex">
+            <option value="">Display</option>
+            <option value="chai-flex">Flex</option>
+        </select>
+
+        <select id="gap">
+            <option value="">Gap</option>
+            <option value="chai-gap-10">10px</option>
+            <option value="chai-gap-20">20px</option>
+            <option value="chai-gap-40">40px</option>
+        </select>
+
+        <select id="justify">
+            <option value="">Justify Content</option>
+            <option value="chai-justify-start">Start</option>
+            <option value="chai-justify-center">Center</option>
+            <option value="chai-justify-end">End</option>
+            <option value="chai-justify-between">Space Between</option>
+            <option value="chai-justify-around">Space Around</option>
+        </select>
+
+        <select id="items">
+            <option value="">Align Items</option>
+            <option value="chai-items-start">Start</option>
+            <option value="chai-items-center">Center</option>
+            <option value="chai-items-end">End</option>
+        </select>
+    </div>
+
+    <div id="demoBox" class="chai-p-20 chai-bg-DarkCyan chai-text-white chai-rounded-10 chai-w-450 chai-h-200">
+        <div class="mini-box">Green Tea</div>
+        <div class="mini-box">Black Tea</div>
+        <div class="mini-box">Milk Tea</div>
+    </div>
+
+    <script src="chai.js"></script>
+</body>
+
+</html>
