@@ -127,7 +127,7 @@ function isColor(value) {
         "OliveDrab",
         "Turquoise",
         "Thistle",
-        Sienna,
+        "Sienna"
 
     ];
 
